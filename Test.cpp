@@ -50,7 +50,7 @@
 
 TEST_CASE("Test"){
     WarGame::DemoGame demoGame;
-    for (int i=0; i<100; i++) {
+    for (int i=0; i<101; i++) {
         CHECK(demoGame.play()==0);
     }
 }
