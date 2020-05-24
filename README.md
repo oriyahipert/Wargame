@@ -5,6 +5,11 @@ A board representing a board game with soldiers.
 
 soldier:
 
+Each player has several different types of soldiers, each type of soldier has different abilities.
+Has fields of location on board ,player number, health points, and damage points .Also has act and move functions.
+
+inheritors:
+
 * FootSoldier - legs - can go one slot in any direction. Shoots at the enemy soldier closest to him (if there are any - he shoots one of them arbitrarily).
 
 * FootCommander - Like my feet, but when he moves, not only does he shoot but all the foot soldiers of that player shoot.
