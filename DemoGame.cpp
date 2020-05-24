@@ -44,7 +44,7 @@ namespace WarGame {
 			// if (!board.has_soldiers(2)) return 1;
 
 			// board.move(2, {7,3}, Board::MoveDIR::Left);    // FootCommander of player 2 moves left, and all soldiers of player 2 attack.
-			if (!board.has_soldiers(1)) return 2;
+		//	if (!board.has_soldiers(1)) return 2;
 
 			/// Write more moves here..
 
